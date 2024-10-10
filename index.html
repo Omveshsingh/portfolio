@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts (optional) -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome for icons (optional) -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+  <!-- Navigation Bar -->
+  <header>
+    <nav>
+      <div class="logo">Your Name</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm Omvesh Singh</h1>
+      <p>Web Developer | Software Engineer | Aspiring Machine learning Engineer</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+    <div class="hero-image">
+      <img src="images/profile.jpg" alt="Your Photo">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="images/profile.jpg" alt="Your Photo">
+      <div class="about-text">
+        <p>Welcome! I'm [Your Name], a passionate web developer with experience in building dynamic and responsive websites. I enjoy turning complex problems into simple, beautiful, and intuitive designs.</p>
+        <p>When I'm not coding, you'll find me exploring new technologies, reading tech blogs, or hiking in nature.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <!-- Project 1 -->
+      <div class="project-card">
+        <img src="images/project1.png" alt="Project 1">
+        <div class="project-info">
+          <h3>Project One</h3>
+          <p>A brief description of Project One. Highlight the technologies used and the purpose of the project.</p>
+          <a href="https://github.com/yourusername/project-one" target="_blank" class="btn">View on GitHub</a>
+        </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="project-card">
+        <img src="images/project2.png" alt="Project 2">
+        <div class="project-info">
+          <h3>Project Two</h3>
+          <p>A brief description of Project Two. Highlight the technologies used and the purpose of the project.</p>
+          <a href="https://github.com/yourusername/project-two" target="_blank" class="btn">View on GitHub</a>
+        </div>
+      </div>
+      <!-- Add more projects as needed -->
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill">
+        <i class="fas fa-code"></i>
+        <h3>Web Development</h3>
+        <p>HTML, CSS, JavaScript, React, Node.js</p>
+      </div>
+      <div class="skill">
+        <i class="fas fa-database"></i>
+        <h3>Databases</h3>
+        <p>MySQL, MongoDB, PostgreSQL</p>
+      </div>
+      <div class="skill">
+        <i class="fas fa-tools"></i>
+        <h3>Tools</h3>
+        <p>Git, GitHub, Docker, VS Code</p>
+      </div>
+      <!-- Add more skills as needed -->
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required placeholder="Your Name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="you@example.com">
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+      </div>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <div id="form-messages"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Your Name. All rights reserved.</p>
+    <div class="social-links">
+      <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i></a>
+      <!-- Add more social links as needed -->
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
